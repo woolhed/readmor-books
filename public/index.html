@@ -10,13 +10,15 @@
 <body>
     <h1>My Bookshelf</h1>
     <div class="bookshelf">
-        <div class="book" onclick="showBookDetails('Book 1')">
-            <img src="/testcovers/the_hobbit.jpg" alt="The Hobbit">
+        <div class="shelf">
+            <div class="book" onclick="showBookDetails(The Hobbit)">
+                <img src="/testcovers/the_hobbit.jpg" alt="The Hobbit">
+            </div>
+            <div class="book" onclick="showBookDetails('Book 2')">
+                <img src="/testcovers/lotr1.jpg" alt="The Fellowship of the Ring: The Lord of the Rings Book 1">
+            </div>
+            <!-- Add more books as needed -->
         </div>
-        <div class="book" onclick="showBookDetails('Book 2')">
-            <img src="/testcovers/lotr1.jpg" alt="The Fellowship of the Ring: The Lord of the Rings Book 1">
-        </div>
-        <!-- Add more books as needed -->
     </div>
     <script src="script.js"></script>
 </body>
